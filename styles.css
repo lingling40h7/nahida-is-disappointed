@@ -1,0 +1,22 @@
+@import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/carrossel.css);
+
+:root{
+    --cor-de-fundo:#303322;
+    --branco:#e8ede8;
+    --amarelo:#7fb591;
+    --roxo:#BACD84;
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "Josefin Sans";
+    
+    
+
+}
+
+body{
+    background-color:var(--cor-de-fundo);
+font-family: var(--fonte-principal);
+font-size: 16px;
+font-weight: 400;
+}
